@@ -30,8 +30,8 @@ intptr_t LIBCONTEXT_CALL_CONVENTION jump_fcontext( fcontext_t * ofc, fcontext_t 
 fcontext_t LIBCONTEXT_CALL_CONVENTION make_fcontext( void * sp, size_t size, void (* fn)( intptr_t));
 
 ```
-
-```demo
+## demo
+```cpp
 #include "libcontext.h" 
 #include <array>
 #include <functional> 
